@@ -11,4 +11,4 @@ phases:
       - npm run build -prod
   post_build:
     commands:
-      - aws --region us-east-1 s3 sync ./dist/ s3://samplecodepipeline-bucket/ --acl=public-read --delete
+      - aws --region us-east-1 s3 sync ./dist/ s3://marklab-code-upload/ --acl=public-read --delete
