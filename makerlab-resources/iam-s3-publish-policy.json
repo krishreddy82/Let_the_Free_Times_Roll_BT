@@ -9,9 +9,9 @@
           "Effect": "Allow",
           "Action": "s3:*",
           "Resource": [
-            "arn:aws:s3:::<BUCKET_NAME>",
-            "arn:aws:s3:::<BUCKET_NAME>/*",
-            "arn:aws:s3:::<BUCKET_NAME>/assets/*"
+            "arn:aws:s3:::east-makertest-bucket-7867867678",
+            "arn:aws:s3:::east-makertest-bucket-7867867678/*",
+            "arn:aws:s3:::east-makertest-bucket-7867867678/assets/*"
           ]
       }
   ]
